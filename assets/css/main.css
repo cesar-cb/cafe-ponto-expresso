@@ -781,20 +781,20 @@ img {
   display: block;
   text-align: center;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,255,255,0.6);
+  border-top: 1px solid rgba(255,255,255,0.1);
 }
 .NavList-item:last-child {
-  border-bottom: 1px solid rgba(255,255,255,0.6);
-}
-.NavList-item:hover {
-  background-color: rgba(255,255,255,0.6);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 .NavList-link {
   text-decoration: none;
   color: #fff;
   display: block;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.25em;
+}
+.NavList-link:hover {
+  color: #9e7f2e;
 }
 .HeroSection {
   position: relative;
